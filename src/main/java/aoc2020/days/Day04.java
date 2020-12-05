@@ -136,8 +136,9 @@ public class Day04 {
   }
 
   public static void main(String[] args) {
-    int result1 = Day04.solve1(FileReader.read("day04.txt"));
-    int result2 = Day04.solve2(FileReader.read("day04.txt"));
+    List<String> input = FileReader.read("day04.txt");
+    int result1 = Day04.solve1(input);
+    int result2 = Day04.solve2(input);
     System.out.println("PART 1: " + result1);
     System.out.println("PART 2: " + result2);
   }
