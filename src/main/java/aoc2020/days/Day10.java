@@ -8,6 +8,9 @@ import java.util.stream.Collectors;
 
 public class Day10 {
 
+  // PART 1
+  // TIME O(n)
+  // SPACE O(1)
   public static int solve1(List<String> input) {
 
     List<Integer> intInput =
@@ -28,6 +31,11 @@ public class Day10 {
     }
     return diff1 * (diff3 + 1);
   }
+
+
+  // PART 1
+  // TIME O(n)
+  // SPACE O(max(input)) largest numerical value in input
 
   public static long solve2(List<String> input) {
     List<Integer> intInput =
