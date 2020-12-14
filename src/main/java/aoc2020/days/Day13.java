@@ -51,7 +51,7 @@ public class Day13 {
   }
 
   public static void main(String[] args) {
-    List<String> input = FileReader.read("day13aux.txt");
+    List<String> input = FileReader.read("day13.txt");
     long result1 = Day13.solve1(input);
     long result2 = Day13.solve2(input);
     System.out.println("PART 1: " + result1);
