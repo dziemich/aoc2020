@@ -127,7 +127,6 @@ public class Day16 {
             .collect(Collectors.toList());
 
     while (rules.size() > 0) {
-      System.out.println("rs: " + rules.size());
       for (int i = 0; i < ruleLen; i++) {
         if (mappings.containsKey(i)) continue;
         Set<Integer> candidates = new HashSet<>(rules.keySet());
